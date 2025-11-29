@@ -32,7 +32,7 @@ const {
   getAverageRating,
   getTotalIngredients,
   getDifficultyLevel,
-} = require("./index");
+} = require("./recipe-tracker.js");
 
 console.log(getAverageRating([4, 5, 4, 5]));  // 4.5
 console.log(getTotalIngredients(["a", "b"])); // 2
